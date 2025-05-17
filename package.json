@@ -1,0 +1,24 @@
+{
+  "author": "Sadia Iffat Jahan",
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "express": "^5.1.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.18",
+    "dotenv": "^16.5.0",
+    "prisma": "^6.8.2",
+    "typescript": "^5.8.3"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "api",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build"
+  },
+  "version": "1.0.0"
+}
